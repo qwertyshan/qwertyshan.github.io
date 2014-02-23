@@ -1,10 +1,27 @@
+
+.title {
+    position: relative;
+    left: 40px;
+    top: 0px;
+    margin: 0;
+    padding: 0;
+}
+
+#name {
+    font-family: 'Josefin Slab', serif;
+    font-weight: 700;
+    font-size: 50px;
+    color: rgba(186,225,254,0.6);
+}
+
 .ca-menu{
     padding:0;
     margin:10px auto;
     position: absolute;
     bottom: 40px;
     left: 40px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Josefin Slab',serif;
+    font-weight: 400;
 }
 .ca-menu li{
     list-style-type: none;
@@ -14,7 +31,7 @@
     overflow: visible;
     position: relative;
     float:left;
-    background: rgba(227,228,214,0.8);
+    background: rgba(113,149,181,0.8);
     margin-right: 5px;
     -webkit-box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
     -moz-box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
@@ -64,7 +81,7 @@
     visibility: none;
     text-align: center;
     text-decoration-line: none;
-    font-size: 14px;
+    font-size: 12px;
 
 }
 .ca-menu li:hover{
@@ -77,7 +94,7 @@
     transform: rotate(360deg);
 }
 .ca-menu li:hover .ca-icon{
-    color: rgba(227,228,214,1.0);
+    color: rgba(113,149,181,1.0);
     font-size: 60px;
     top: 10px;
 }

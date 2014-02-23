@@ -25,6 +25,25 @@
   </head>
 
   <body>
+        
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="vegas/jquery.vegas.js"></script>   
+      
+    <script>
+        $(function() {
+            $.vegas({
+                src:'img/background.jpg',
+                fade:4000, //milliseconds
+                valign:'20%',
+                align:'center'
+            });
+            $.vegas('overlay', {
+                src:'vegas/overlays/01.png',
+                opacity:0.6
+            });
+        });
+    </script>
+      
       <div class="title"><h1 id="name">Shantanu Rao</h1></div>
       <nav>
         <ul class="ca-menu">
@@ -54,26 +73,6 @@
             </li>
         </ul>
       </nav>
-
-
-
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="vegas/jquery.vegas.js"></script>   
-      
-    <script>
-        $(function() {
-            $.vegas({
-                src:'img/background.png',
-                fade:4000, //milliseconds
-                valign:'20%',
-                align:'center'
-            });
-            $.vegas('overlay', {
-                src:'vegas/overlays/01.png',
-                opacity:0.6
-            });
-        });
-    </script>
     
     <!-- Google Analytics -->
     <script>

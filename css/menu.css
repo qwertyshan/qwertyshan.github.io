@@ -1,9 +1,10 @@
 
 .title {
     position: fixed;
+    z-index: -1;
     left: 0px;
     right: 0px;
-    bottom: 15px;
+    bottom: 50px;
     margin: 0;
     padding: 0;
     border: 0px;
@@ -27,10 +28,10 @@
     padding:0;
     margin:10px auto;
     position: absolute;
-    bottom: 70px;
-    left: 40px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
+    bottom: 35px;
+    left: 250px;
+    font-family: 'Josefin Slab', 'Open Sans', sans-serif;
+    font-weight: 700;
 }
 .ca-menu li{
     list-style-type: none;
@@ -91,7 +92,7 @@
     visibility: none;
     text-align: center;
     text-decoration-line: none;
-    font-size: 12px;
+    font-size: 15px;
 
 }
 .ca-menu li:hover{

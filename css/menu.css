@@ -10,7 +10,7 @@
     border: 0px;
     height: 55px;
     width: 100%;
-    background: rgba(43,47,56,0.6);
+    background: rgba(236, 240, 241,0.6);
     overflow: hidden;
 }
 
@@ -18,7 +18,7 @@
     font-family: 'Stalemate', cursive;
     font-weight: 600;
     font-size: 55px;
-    color: rgba(113,149,181,1.0);
+    color: black;
     position: relative;
     bottom: 40px;
     left: 50px;
@@ -37,11 +37,10 @@
     list-style-type: none;
     width: 100px;
     height: 100px;
-    border: 5px solid rgba(43,47,56,0.6);
+    border: 5px solid black;
     overflow: visible;
     position: relative;
     float:left;
-    background: rgba(113,149,181,0.8);
     margin-right: 5px;
     margin-bottom: 5px;
     -webkit-box-shadow: 1px 1px 2px rgba(0,0,0,0.2);
@@ -56,6 +55,15 @@
     -ms-transition: all 400ms linear;
     transition: all 400ms linear;
 }
+.ca-menu li:nth-child(1){
+    background: rgba(192, 57, 43,1.0);
+}
+.ca-menu li:nth-child(2){
+    background: rgba(39, 174, 96,1.0);
+}
+.ca-menu li:nth-child(3){
+    background: rgba(41, 128, 185,1.0);
+}
 .ca-menu li:last-child{
     margin-right: 0px;
 }
@@ -63,18 +71,16 @@
     text-align: left;
     text-decoration: none;
     width: 100%;
-    height: 100%;
     display: block;
-    color: rgba(43,47,56,1.0);
+    color: black;
     position: relative;
 }
 .ca-icon{
     font-size: 30px;
-    color: rgba(43,47,56,1.0);
+    color: black;
     line-height: 10px;
     position: absolute;
     width: 100%;
-    height: 100%;
     left: 0px;
     top: 37px;
     text-align: center;
@@ -96,8 +102,7 @@
 
 }
 .ca-menu li:hover{
-    background: rgba(43,47,56,0.8);
-    border-color: rgba(43,47,56,1.0);
+    background: black;
     -webkit-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
     -o-transform: rotate(360deg);
@@ -105,11 +110,23 @@
     transform: rotate(360deg);
 }
 .ca-menu li:hover .ca-icon{
-    color: rgba(113,149,181,1.0);
     font-size: 60px;
     top: 10px;
+}
+.ca-menu li:nth-child(1):hover .ca-icon{
+    color: rgba(192, 57, 43,1.0);
+}
+.ca-menu li:nth-child(2):hover .ca-icon{
+    color: rgba(39, 174, 96,1.0);
+}
+.ca-menu li:nth-child(3):hover .ca-icon{
+    color: rgba(41, 128, 185,1.0);
 }
 .ca-menu li:hover .ca-main{
     opacity: 0;
     text-decoration: none;
+}
+
+.lab-menu {
+    visibility: hidden;
 }

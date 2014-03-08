@@ -56,7 +56,7 @@ $(document).ready(function(){
 	{
 		//To avoid the snake trail we need to paint the BG on every frame
 		//Lets paint the canvas now
-		ctx.fillStyle = "white";
+		ctx.fillStyle = 'rgba(255,255,255,1.0)';
 		ctx.fillRect(0, 0, w, h);
 		ctx.strokeStyle = "black";
 		ctx.strokeRect(0, 0, w, h);
@@ -125,7 +125,7 @@ $(document).ready(function(){
 	{
 		ctx.fillStyle = "blue";
 		ctx.fillRect(x*cw, y*cw, cw, cw);
-		ctx.strokeStyle = "white";
+		ctx.strokeStyle = 'rgba(255,255,255,1.0)';
 		ctx.strokeRect(x*cw, y*cw, cw, cw);
 	}
 	

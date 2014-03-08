@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Shantanu Rao">
+    <link rel="shortcut icon" href="/ico/favicon.png">
+
+    <title>Shantanu Rao</title>
+      
+    <!-- Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Stalemate|Kreon' rel='stylesheet' type='text/css'>
+
+    <!-- Vegas Background JQuery Plugin Stylesheet -->
+    <link href="vegas/jquery.vegas.css" rel="stylesheet">
+    <link href="css/menu.css" rel="stylesheet">
+ 
+    <!-- Font Awesome CSS -->
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+
+  </head>
+
+  <body>
+        
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="vegas/jquery.vegas.js"></script>   
+      
+    <script>
+        $(function() {
+            $.vegas({
+                src:'img/background_lowres.jpg',
+                fade:1000, //milliseconds
+                valign:'20%',
+                align:'center'
+            });
+            $.vegas('overlay', {
+                src:'vegas/overlays/01.png',
+                opacity:0.6
+            });
+        });
+    </script>
+      
+      <div class="title"><h1 id="name">Shantanu Rao</h1></div>
+      <nav>
+        <ul class="ca-menu">
+            <li>
+                <a href="http://www.linkedin.com/in/shanrao">
+                    <span class="ca-icon"><i class="fa fa-linkedin-square"></i></span>
+                    <div class="ca-content">
+                        <h2 class="ca-main">Work</h2>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <span class="ca-icon"><i class="fa fa-cogs"></i></span>
+                    <div class="ca-content">
+                        <h2 class="ca-main">Lab</h2>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="mailto:shan@shanrao.org">
+                    <span class="ca-icon"><i class="fa fa-envelope"></i></span>
+                    <div class="ca-content">
+                        <h2 class="ca-main">Contact</h2>
+                    </div>
+                </a>
+            </li>
+        </ul>
+      </nav>
+      <div class="lab-menu">
+        <ul>
+            <li><i class="fa fa-cog"></i>Experiments
+                <ul>
+                    <li><a href="experiments/snake/index.html">Snake Game</a></li>
+                </ul>
+            </li>
+            <li><i class="fa fa-wrench"></i>Tech R&amp;D 
+                <ul>
+                    <li><a href="http://www.chromeexperiments.com/">Chrome Experiments</a></li>
+                    <li><a href="http://makezine.com/projects/">Maker Shed</a></li>      
+                </ul>
+            </li>
+            <li><i class="fa fa-lightbulb-o"></i>Idea Factories
+                <ul>
+                    <li><a href="http://www.radiolab.org/">Radiolab</a></li>
+                    <li><a href="http://www.npr.org/programs/wait-wait-dont-tell-me/">Wait Wait Don't Tell Me</a></li>
+                    <li><a href="http://www.npr.org/programs/fresh-air/">Fresh Air with Terry Gross</a></li>
+                    <li><a href="http://www.brainpickings.org/">Brain Pickings</a></li>
+                    <li><a href="http://www.fastcompany.com/">Fast Company</a></li>
+                    <li><a href="http://www.nytimes.com">NY Times</a></li>
+                </ul>
+            </li>
+            <li><i class="fa fa-comments-o"></i>Community
+                <ul>
+                    <li><a href="http://www.quora.com/">Quora</a></li>
+                    <li><a href="http://www.norcalcrossfit.com">NorCal Crossfit</a></li>
+                </ul>
+            </li>
+          
+            
+        </ul>
+          
+      </div>
+    
+    <!-- Google Analytics -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o), m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-48352200-1', 'shanrao.org');
+        ga('send', 'pageview');
+    
+    </script>
+      
+  </body>
+</html>

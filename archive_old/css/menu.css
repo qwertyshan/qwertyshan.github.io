@@ -10,7 +10,7 @@
     border: 0px;
     height: 55px;
     width: 100%;
-    background: rgba(236, 240, 241,0.6);
+    background: rgba(236, 240, 241,0.7);
     overflow: hidden;
 }
 
@@ -30,6 +30,7 @@
     position: absolute;
     bottom: 35px;
     left: 250px;
+    width: 350px;
     font-family: 'Kreon', serif;
     font-weight: 400;
 }
@@ -128,5 +129,42 @@
 }
 
 .lab-menu {
-    visibility: hidden;
+    visibility:visible;
+    padding:10px;
+    margin:10px auto;
+    position: absolute;
+    bottom: 165px;
+    left: 360px;
+    font-family: 'Kreon', serif;
+    font-weight: 400;
+    background: rgba(236, 240, 241,0.7);
+}
+.lab-menu ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    width: 250px;
+}
+.lab-menu li i {
+    vertical-align: middle;
+    float: left;
+    padding: 0px 5px 0px 5px;
+    margin: 0px;
+}
+.lab-menu ul > li {
+    font-size: 1.2em;
+}
+.lab-menu ul ul {
+    padding: 0px;
+    float:left;
+    position: relative;
+    left: 35px;
+}
+.lab-menu ul > li > ul > li{
+    font-size: 0.9em;
+}
+.lab-menu a {
+    text-decoration: none;
+    color: black;
+    font-size:1em;
 }

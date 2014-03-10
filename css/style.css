@@ -1118,6 +1118,10 @@
 		background-position: top left, center center;
 	}
 
+    #two li>a:hover {
+        text-decoration:underline;
+    }
+
 /*********************************************************************************/
 /* Three                                                                           */
 /*********************************************************************************/
@@ -1129,9 +1133,34 @@
 		background-position: top left, center center;
 	}
 
-    li>i {
-        font-weight:700;
+    #three>div {
+        width: 620px;
     }
+
+    #three>ul>li {
+        font-weight:bold;
+    }
+    
+    #three li>ul>li {
+        font-size: 0.9em;
+    }
+    
+    #three li>a:hover {
+        text-decoration:underline;
+    }
+   
+    #double {
+        -moz-column-count:2; /* Firefox */
+        -webkit-column-count:2; /* Safari and Chrome */
+        column-count:2;
+    }
+    
+    #three #books li {
+        float: left;
+        padding: 1px;
+        margin: 1px;
+    }
+    
 			
 /*********************************************************************************/
 /* Contact                                                                       */

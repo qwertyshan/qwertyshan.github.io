@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>Cycling through markers</title>
+<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+<script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.js'></script>
+<link href='https://api.tiles.mapbox.com/mapbox.js/v2.1.5/mapbox.css' rel='stylesheet' />
+<style>
+  body { margin:0; padding:0; }
+  #map { position:absolute; top:0; bottom:0; width:100%; }
+</style>
+</head>
+<body>
+<div id='map'></div>
+
+<script>
+L.mapbox.accessToken = 'pk.eyJ1IjoicXdlcnR5c2hhbiIsImEiOiJZdnd5T1VFIn0.5EaPhpC3704LVk0vUI3djw';
+var map = L.mapbox.map('map', 'qwertyshan.l81p6a39');
+
+// Open popup when user mouses over a marker
+map.featureLayer.on('ready', function(e) {
+    var markers = [];
+    this.eachLayer(function(marker) { markers.push(marker); });
+    cycle(markers);
+});
+
+function cycle(markers) {
+    var i = 0;
+    function run() {
+        if (++i > markers.length - 1) i = 0;
+        map.setView(markers[i].getLatLng(), 12);
+        markers[i].openPopup();
+        window.setTimeout(run, 3000);
+    }
+    run();
+}
+</script>
+</body>
+</html>

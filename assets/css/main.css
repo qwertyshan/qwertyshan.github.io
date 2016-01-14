@@ -521,8 +521,9 @@
 					display: block;
 					width: 3.75em;
 					height: 3.75em;
+                    border: solid 1px #616f77;
 					border-radius: 15%;
-                    background: #414f57;
+                    background: #ffffff;
 					line-height: 3.75em;
 					overflow: hidden;
 					text-align: center;
@@ -540,12 +541,12 @@
 					}
 
 					ul.icons li a:before {
-						color: #ffffff;
+						color: #616f77;
 					}
 
 					ul.icons li a:hover:before {
-                        background: #ffffff;
-                        color: #414f57;
+                        background: #616f77;
+                        color: #ffffff;
 					}
 
 					ul.icons li a:before {
@@ -561,9 +562,9 @@
 					}
 
 					ul.icons li a:hover {
-                        border: solid 1px #414f57;
-                        background: #ffffff;
-                        color: #414f57;
+                        border: solid 1px #616f77;
+                        background: #616f77;
+                        color: #ffffff;
 					}
 
 			@media screen and (max-width: 480px) {

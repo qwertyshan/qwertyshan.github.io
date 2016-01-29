@@ -873,8 +873,8 @@
     white-space: nowrap;
     /* top left corner */
     position: absolute;
-    left: -50px;
-    top: 20px;
+    left: -45px;
+    top: 25px;
     /* 45 deg ccw rotation */
     -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
@@ -890,13 +890,16 @@
     color: #fff;
     display: block;
     margin: 1px 0;
-    padding: 5px 44px;
+    padding: 7px 45px;
     text-align: center;
     text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-size: small;
 }
 .ribbon:hover {
     /* top left corner */
     position: absolute;
-    left: -50px;
-    top: 19px;
+    left: -45px;
+    top: 24px;
 }

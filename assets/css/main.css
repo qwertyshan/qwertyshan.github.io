@@ -724,6 +724,10 @@
 		-webkit-transition: opacity 1s ease, -webkit-transform 1s ease;
 		-ms-transition: opacity 1s ease, -ms-transform 1s ease;
 		transition: opacity 1s ease, transform 1s ease;
+        overflow: hidden;
+        -webkit-box-shadow: 0 0 10px #888;
+        -moz-box-shadow: 0 0 10px #888;
+        box-shadow: 0 0 10px #888;
 	}
 
 		#main .avatar {
@@ -856,3 +860,43 @@
 		body.is-ie #wrapper {
 			height: 100%;
 		}
+
+/* Corner Ribbon */
+
+.ribbon {
+    background-color: #616f77;
+  /*  background-color: #c8cccf; */
+    border: 1px;
+    border-color: #616f77;
+    height: 40px;
+    overflow: hidden;
+    white-space: nowrap;
+    /* top left corner */
+    position: absolute;
+    left: -50px;
+    top: 20px;
+    /* 45 deg ccw rotation */
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    /* shadow */
+    -webkit-box-shadow: 0 0 10px #888;
+    -moz-box-shadow: 0 0 10px #888;
+    box-shadow: 0 0 10px #888;
+}
+.ribbon a {
+    color: #fff;
+    display: block;
+    margin: 1px 0;
+    padding: 5px 44px;
+    text-align: center;
+    text-decoration: none;
+}
+.ribbon:hover {
+    /* top left corner */
+    position: absolute;
+    left: -50px;
+    top: 19px;
+}

@@ -710,7 +710,7 @@
 		background: #ffffff;
 		border-radius: 4px;
 		cursor: default;
-		opacity: 0.95;
+		opacity: 0.90;
 		text-align: center;
 		-moz-transform-origin: 50% 50%;
 		-webkit-transform-origin: 50% 50%;
@@ -725,9 +725,9 @@
 		-ms-transition: opacity 1s ease, -ms-transform 1s ease;
 		transition: opacity 1s ease, transform 1s ease;
         overflow: hidden;
-        -webkit-box-shadow: 0 0 10px #888;
-        -moz-box-shadow: 0 0 10px #888;
-        box-shadow: 0 0 10px #888;
+        -webkit-box-shadow: 0 0 20px #888;
+        -moz-box-shadow: 0 0 20px #888;
+        box-shadow: 0 0 20px #888;
 	}
 
 		#main .avatar {
@@ -864,10 +864,10 @@
 /* Corner Ribbon */
 
 .ribbon {
-    background-color: #616f77;
-  /*  background-color: #c8cccf; */
+    background-color: #f34379;
+    background-image: url("images/noisy-texture-100x100-o5-d10-c-f34379-t1.png");
     border: 1px;
-    border-color: #616f77;
+    border-color: #f34379;
     height: 40px;
     overflow: hidden;
     white-space: nowrap;
@@ -900,6 +900,6 @@
 .ribbon:hover {
     /* top left corner */
     position: absolute;
-    left: -45px;
+    left: -46px;
     top: 24px;
 }

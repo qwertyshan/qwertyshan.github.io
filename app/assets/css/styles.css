@@ -7333,7 +7333,7 @@ section {
   width: 237px;
   height: 420px;
   overflow: hidden;
-  background-color: green;
+  background-color: #777;
 }
 /* Samsung */
 .samsung__container {
@@ -7361,7 +7361,7 @@ section {
   width: 250px;
   height: 443px;
   overflow: hidden;
-  background-color: green;
+  background-color: #777;
 }
 /* Macbook */
 .macbook__container {
@@ -7383,7 +7383,7 @@ section {
   width: 701px;
   height: 439px;
   overflow: hidden;
-  background-color: green;
+  background-color: #777;
 }
 /**
  * Background image

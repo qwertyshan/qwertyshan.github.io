@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>App by Shantanu Rao</title>
+
+    <!-- CSS Plugins -->
+    <link href="../assets/plugins/fullpage/jquery.fullpage.min.css" rel="stylesheet">
+    <link href="../assets/plugins/animate/animate.min.css" rel="stylesheet">
+    <link href="../assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- CSS Global -->
+    <link href="../assets/css/styles.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800,400italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Questrial' rel='stylesheet' type='text/css'>
+
+  </head>
+
+  <body>
+
+    <!-- MAIN CONTENT
+    ================================================== -->
+
+    <!-- Background Image -->
+    <div class="bg-image hidden"></div>
+
+
+    <!-- Background Colors -->
+    <div class="bg-colors" data-colors="#D35D56,#587EA0,#518E7E,#568CD3,#D3744C,#389E86,#9356D3"></div>
+
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+            <a class="navbar-brand" href="#">Where is the Jedi</a>
+        </div>
+
+        <div id="navbar" class="collapse navbar-collapse">
+
+            <a href="http://github.com/qwertyshan/Jedi" class="btn btn-lg navbar-right navbar-btn">
+                <i class="fa fa-github"></i> Fork me on Github
+            </a>
+            <ul class="nav navbar-nav navbar-left">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                        Other Apps 
+                        <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-header">iOS Apps</li>
+                        <li><a href="http://app.shanrao.org/OnTheMap">On the Map</a></li>
+                        <li><a href="http://app.shanrao.org/MemeMe">Meme Me</a></li>
+                        <li class="dropdown-header">Web Apps</li>
+                        <li><a href="http://app.shanrao.org/Jedi">Where is the Jedi</a></li>
+                    </ul>
+                </li>
+            </ul>
+          <ul class="nav navbar-nav navbar-right menu">
+            <li data-menuanchor="section_welcome">
+              <a href="#section_welcome">Overview</a>
+            </li>
+            <li data-menuanchor="section_1">
+              <a href="#section_1">Beautiful Frontend</a>
+            </li>
+            <li data-menuanchor="section_2">
+              <a href="#section_2">Powerful Backend</a>
+            </li>
+            <li data-menuanchor="section_3">
+              <a href="#section_3">Massively Scalable</a>
+            </li>
+          </ul>
+          
+        </div><!-- /.navbar-collapse -->
+
+      </div><!-- /.container -->
+    </nav>
+
+
+    <!-- Side menu -->
+    <div class="side-menu hidden-xs hidden-sm">
+      <ul class="menu">
+        <li data-menuanchor="section_welcome">
+          <a href="#section_welcome"></a>
+        </li>
+        <li data-menuanchor="section_1">
+          <a href="#section_1"></a>
+        </li>
+        <li data-menuanchor="section_2">
+          <a href="#section_2"></a>
+        </li>
+        <li data-menuanchor="section_3">
+          <a href="#section_3"></a>
+        </li>
+      </ul>
+    </div>
+
+
+
+
+    <!-- Devices -->
+    <div class="device__container hidden-xs">
+
+      <!-- iPhone -->
+      <div class="iphone__container black hidden">
+
+        <!-- Slides -->
+        <div class="iphone__screen">
+          <div class="device__slides">
+            
+ 
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Macbook -->
+      <div class="macbook__container">
+
+        <!-- Slides -->
+        <div class="macbook__screen">
+          <div class="device__slides">
+            
+            <img src="img/Jedi1.png" alt="Jedi Web App screenshot">
+            <img src="img/Jedi2.png" alt="Jedi Web App screenshot">
+            <img src="img/Jedi3.png" alt="Jedi Web App screenshot">
+            <img src="img/Jedi4.png" alt="Jedi Web App screenshot">
+            
+
+          </div>
+        </div>
+
+      </div>
+
+    </div> <!-- / .device__container -->
+
+
+    <!-- Sections -->
+    <div id="fullpage">
+
+      <!-- Welcome -->
+      <section data-anchor="section_welcome">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-sm-offset-6 col-md-5 col-md-offset-6">
+              
+              <h1 class="heading" data-animate-in="animateUpDown">
+                Where is the Jedi? <br>
+                  Web App
+              </h1>
+              <p class="delay_1" data-animate-in="animateUpDown">
+                    Place your Star Wars character anywhere on earth <br>
+                    by typing a location in free text.
+              </p>
+              <p class="delay_2" data-animate-in="animateUpDown">
+                    Google Maps API with custom geolocation code.
+              </p>
+              <p class="delay_3" data-animate-in="animateUpDown">
+                    Built with Python, Bootstrap, and the light side of the Force.
+              </p>
+              <a href="http://shanrao-mapmove.appspot.com" class="btn btn-lg btn-primary delay_2" data-animate-in="animateUpDown">
+                <i class="fa fa-desktop"></i> See a Live Demo
+              </a>
+              <a href="https://www.linkedin.com/in/shanrao" class="btn btn-lg btn-primary delay_2" data-animate-in="animateUpDown">
+                <i class="fa fa-linkedin"></i> Connect on LinkedIn
+              </a>
+
+            </div>
+          </div> <!-- / .row -->
+        </div><!-- / .container -->
+      </section>
+
+      <!-- Features -->
+      <section data-anchor="section_1">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-sm-offset-6 col-md-5 col-md-offset-6">
+              
+              <h2 class="heading" data-animate-in="animateUp">
+                Beautiful Frontend
+              </h2>
+              
+                <p class="delay_1" data-animate-in="animateUp">
+                All views are beautifully designed using the Bootstrap CSS framework.
+              </p>
+              <ul class="list-ticked">
+                <li class="delay_2" data-animate-in="animateUp">
+                  <i class="fa fa-check"></i> Fully gridded layout
+                </li>
+                <li class="delay_2_1" data-animate-in="animateUp">
+                  <i class="fa fa-check"></i> Elegant handling of application errors and user feedback
+                </li>
+              </ul>  
+
+            </div>
+          </div> <!-- / .row -->
+        </div><!-- / .container -->
+      </section>
+
+      <!-- Text block -->
+      <section data-anchor="section_2">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-sm-offset-6 col-md-5 col-md-offset-6">
+                  
+              <h2 class="heading" data-animate-in="animateUp">
+                Powerful Backend
+              </h2>
+              
+            <ul class="list-ticked">
+              <li class="delay_1" data-animate-in="animateUp">
+                <i class="fa fa-check"></i> App is written in Python with webapp2 for URI routing.
+              </li>
+              <li class="delay_2" data-animate-in="animateUp">
+                <i class="fa fa-check"></i> Jinja enabled frontend templating.
+              </li>
+              <li class="delay_3" data-animate-in="animateUp">
+                <i class="fa fa-check"></i> Google Map APIs for geo-location and map sourcing.
+              </li>
+            </ul>
+                <br>
+                
+                <a href="https://github.com/qwertyshan/Jedi" class="btn btn-lg btn-primary delay_2" data-animate-in="animateUpDown">
+                <i class="fa fa-github"></i> Fork me on Github
+              </a>
+
+            </div>
+          </div> <!-- / .row -->
+        </div> <!-- / .container -->
+      </section>
+
+      <!-- Tabs -->
+      <section data-anchor="section_3">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6 col-sm-offset-6 col-md-5 col-md-offset-6">
+              
+              <h2 class="heading" data-animate-in="animateUp">
+                Massively Scalable <br>
+                  Compute and Datastore
+              </h2>
+
+              <p class="delay_1" data-animate-in="animateUp">
+                    The application is built on Google App Engine, with features such as
+                  auto-scaling, caching, and sophisticated management dashboards.              
+                </p>
+              
+              <p class="delay_2" data-animate-in="animateUp">
+                    The datastore uses NDB, a schemaless object datastore providing robust, scalable storage.         
+                </p> 
+                
+                <a href="http://shanrao-mapmove.appspot.com" class="btn btn-lg btn-primary delay_2" data-animate-in="animateUpDown">
+                <i class="fa fa-desktop"></i> See a Live Demo
+              </a>
+                 <a href="https://www.linkedin.com/in/shanrao" class="btn btn-lg btn-primary delay_2" data-animate-in="animateUpDown">
+                <i class="fa fa-linkedin"></i> Connect on LinkedIn
+              </a>
+
+            </div>
+          </div> <!-- / .row -->
+        </div> <!-- / .container -->
+      </section>
+
+      
+    </div> <!-- / #fullpage -->
+  
+
+    <!-- RESOURCES
+    ================================================== -->
+
+    <!-- JS Global -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- JS Plugins -->
+    <script src="../assets/plugins/fullpage/jquery.fullpage.min.js"></script>
+
+    <!-- JS Custom -->
+    <script src="../assets/js/custom.js"></script>
+
+  </body>
+</html>

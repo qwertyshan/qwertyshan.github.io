@@ -165,9 +165,9 @@ $(function () {
 // Backstretch - Slider on Background
 
 
-$(".fullscreen").backstretch([
-    "img/showcase-5.jpg"
-], {duration: 5000, fade: 1000});
+//$(".fullscreen").backstretch([
+//    "img/showcase-5.jpg"
+//], {duration: 5000, fade: 1000});
 
 
 //back to top

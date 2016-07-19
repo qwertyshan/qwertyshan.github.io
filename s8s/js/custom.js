@@ -166,6 +166,7 @@ $(function () {
 
 
 $(".fullscreen").backstretch([
+    "img/showcase-5.jpg"
 ], {duration: 5000, fade: 1000});
 
 

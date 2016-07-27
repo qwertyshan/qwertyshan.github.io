@@ -3,24 +3,13 @@
 <head>
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1" name="viewport">
-    <script src=
-    "http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js" type=
-    "text/javascript">
-    </script>
-    <script src=
-    "http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js" type=
-    "text/javascript">
-    </script>
-    <link href=
-    "http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css"
-    rel="stylesheet" type="text/css">
     <link href="assets/css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="assets/css/custom.css" rel="stylesheet" type="text/css">
 
     <title>Portfolio | Shantanu Rao | shanrao.org</title>
 </head>
 
-<body>
+<body class="is-loading" data-spy="scroll">
     <div class="section">
         <div class="container">
             <div class="row">
@@ -44,30 +33,29 @@
                             "navbar-ex-collapse">
                                 <ul class="nav navbar-right navbar-nav">
                                     <li>
-                                        <a href="#">Product Management</a>
+                                        <a data-target="#product" href="#product">Product Management</a>
                                     </li>
 
 
                                     <li>
-                                        <a href=
-                                        "#infrastructure">Infrastructure
+                                        <a data-target="#infrastructure" href="#infrastructure">Infrastructure
                                         Engineering</a>
                                     </li>
 
 
                                     <li>
-                                        <a href="#software">Software
+                                        <a data-target="#software" href="#software">Software
                                         Development</a>
                                     </li>
 
 
                                     <li>
-                                        <a href="#research">Research<br></a>
+                                        <a data-target="#research" href="#research">Research</a>
                                     </li>
 
 
                                     <li>
-                                        <a href="#personal">Personal</a>
+                                        <a data-target="#personal" href="#personal">Personal</a>
                                     </li>
                                 </ul>
                             </div>
@@ -79,10 +67,8 @@
     </div>
 
 
-    <div class="section">
-        <a id="product" name="product"></a>
-
-        <div class="container">
+    <div class="section" id="product">
+        <div class="container" >
             <div class="row">
                 <div class="col-md-12">
                     <h1 class="text-center">Product Management</h1>
@@ -237,9 +223,8 @@
             </div>
         </div>
     </div>
-    <a id="infrastructure" name="infrastructure"></a>
-
-    <div class="section">
+    
+    <div class="section" id="infrastructure">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -280,8 +265,8 @@
                     <h4 class="text-left">Routing and Switching</h4>
 
 
-                    <p class="text-left">Cisco, Brocade, and Linux
-                    platforms</p>
+                    <h5 class="text-left">Cisco, Brocade, and Linux
+                    platforms</h5>
                 </div>
 
 
@@ -295,9 +280,9 @@
                     <h4 class="text-left">Application Networking</h4>
 
 
-                    <p class="text-left">TCP/IP, HTTP, DNS, SSL,
-                    load-balancing,<br>
-                    high-redundancy service architectures</p>
+                    <h5 class="text-left">TCP/IP, HTTP, DNS, SSL,
+                    load-balancing,
+                    high-redundancy service architectures</h5>
                 </div>
             </div>
 
@@ -313,8 +298,8 @@
                     <h4 class="text-left">Security</h4>
 
 
-                    <p class="text-left">Firewalls, malware, encryption,
-                    cybersecurity</p>
+                    <h5 class="text-left">Firewalls, malware, encryption,
+                    cybersecurity</h5>
                 </div>
 
 
@@ -328,7 +313,7 @@
                     <h4 class="text-left">Cloud Compute</h4>
 
 
-                    <p class="text-left">AWS EC2, Heroku, Google App Engine</p>
+                    <h5 class="text-left">AWS, Heroku, Google Cloud Services</h5>
                 </div>
             </div>
         </div>
@@ -344,9 +329,8 @@
             </div>
         </div>
     </div>
-    <a id="software" name="software"></a>
 
-    <div class="section">
+    <div class="section" id="software">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -473,9 +457,8 @@
             </div>
         </div>
     </div>
-    <a id="research" name="research"></a>
 
-    <div class="section">
+    <div class="section" id="research">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -490,7 +473,7 @@
                 <div class="well boxshadow col-md-8 col-md-offset-2 text-center">
                     <ul class="media-list">
                         <li class="media">
-                            <a class="pull-left" href="#"><img class=
+                            <a class="pull-left" href="http://hdl.handle.net/10057/1528"><img class=
                             "media-object" src=
                             "http://content.sportslogos.net/logos/35/911/full/4550_wichita_state_shockers-primary-2010.png"
                             width="64"></a>
@@ -509,7 +492,7 @@
 
 
                         <li class="media">
-                            <a class="pull-left" href="#"><img class=
+                            <a class="pull-left" href="http://ieeexplore.ieee.org/xpl/articleDetails.jsp?arnumber=4373468"><img class=
                             "media-object" src=
                             "http://www.ieee.org/documents/ieee_mb_blue.jpg"
                             width="64"></a>
@@ -529,9 +512,9 @@
 
 
                         <li class="media">
-                            <a class="pull-left" href="#"><img class=
+                            <a class="pull-left" href="archive/site2/experiments/bugs/index.html"><img class=
                             "media-object" src=
-                            "http://robocave.pk/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/p/i/pic_16f877a_microcontroller.jpg"
+                            "https://upload.wikimedia.org/wikipedia/commons/1/18/PIC18F8720.jpg"
                             width="64"></a>
 
                             <div class="media-body">
@@ -561,9 +544,8 @@
             </div>
         </div>
     </div>
-    <a id="personal" name="personal"></a>
 
-    <div class="section">
+    <div class="section" id="personal">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -1043,7 +1025,7 @@
     </div>
 
 
-    <footer class="section section-primary">
+    <footer class="section">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6">
@@ -1060,12 +1042,12 @@
                         <div class=
                         "col-md-12 hidden-lg hidden-md hidden-sm text-left">
                             <a href="https://github.com/qwertyshan"><i class=
-                            "fa fa-3x fa-fw fa-github text-inverse"></i></a>
+                            "fa fa-3x fa-fw fa-github"></i></a>
                             <a href=
                             "https://www.linkedin.com/in/shanrao"><i class=
-                            "fa fa-3x fa-fw fa-linkedin text-inverse"></i></a>
+                            "fa fa-3x fa-fw fa-linkedin"></i></a>
                             <a href="mailto:rao.shantanu@gmail.com"><i class=
-                            "fa fa-3x fa-fw fa-envelope text-inverse"></i></a>
+                            "fa fa-3x fa-fw fa-envelope"></i></a>
                         </div>
                     </div>
 
@@ -1073,17 +1055,28 @@
                     <div class="row">
                         <div class="col-md-12 hidden-xs text-right">
                             <a href="https://github.com/qwertyshan"><i class=
-                            "fa fa-3x fa-fw fa-github text-inverse"></i></a>
+                            "fa fa-3x fa-fw fa-github"></i></a>
                             <a href=
                             "https://www.linkedin.com/in/shanrao"><i class=
-                            "fa fa-3x fa-fw fa-linkedin text-inverse"></i></a>
+                            "fa fa-3x fa-fw fa-linkedin"></i></a>
                             <a href="mailto:rao.shantanu@gmail.com"><i class=
-                            "fa fa-3x fa-fw fa-envelope text-inverse"></i></a>
+                            "fa fa-3x fa-fw fa-envelope"></i></a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </footer>
+    <script src=
+    "http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js" type=
+    "text/javascript">
+    </script>
+    <script src=
+    "http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js" type=
+    "text/javascript">
+    </script>
+    <link href=
+    "http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css"
+    rel="stylesheet" type="text/css">
 </body>
 </html>

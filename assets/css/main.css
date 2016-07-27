@@ -873,8 +873,8 @@
     white-space: nowrap;
     /* top left corner */
     position: absolute;
-    left: -45px;
-    top: 25px;
+    right: -50px;
+    bottom: 30px;
     /* 45 deg ccw rotation */
     -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
@@ -900,6 +900,6 @@
 .ribbon:hover {
     /* top left corner */
     position: absolute;
-    left: -46px;
-    top: 24px;
+    right: -49px;
+    bottom: 31px;
 }

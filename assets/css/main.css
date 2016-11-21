@@ -903,3 +903,46 @@
     right: -49px;
     bottom: 31px;
 }
+
+/* Corner Ribbon */
+
+.ribbon-leftbottom {
+    background-color: #f34379;
+    background-image: url("images/noisy-texture-100x100-o5-d10-c-f34379-t1.png");
+    border: 1px;
+    border-color: #f34379;
+    height: 40px;
+    overflow: hidden;
+    white-space: nowrap;
+    /* top left corner */
+    position: absolute;
+    left: -50px;
+    bottom: 30px;
+    /* 45 deg ccw rotation */
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    /* shadow */
+    -webkit-box-shadow: 0 0 10px #888;
+    -moz-box-shadow: 0 0 10px #888;
+    box-shadow: 0 0 10px #888;
+}
+.ribbon-leftbottom a {
+    color: #fff;
+    display: block;
+    margin: 1px 0;
+    padding: 7px 45px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-size: small;
+}
+.ribbon-leftbottom:hover {
+    /* top left corner */
+    position: absolute;
+    left: -49px;
+    bottom: 31px;
+}

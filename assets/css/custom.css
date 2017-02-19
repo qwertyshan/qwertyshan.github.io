@@ -16,6 +16,7 @@ h2,h3{padding-top: 20px; padding-bottom: 20px; color: #ffffff;}
 h1{padding-top:70px; padding-bottom: 20px; color: #ffffff;}
 img{margin-bottom:20px}
 hr{margin-top:100px}
+hr.inDiv{margin-top:0}
 .boxshadow{box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
 footer a{text-decoration: none;}
 navbar{background-color: rgba(255,255,255,0.6);}
